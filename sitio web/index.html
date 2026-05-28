@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steven Anamá | Multimedia & Producción Audiovisual</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts: Playfair Display (títulos elegantes) + Nunito (cuerpo legible) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,700&family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER: Barra de navegación fija ===== -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <img src="" alt="Logo" class="logo-img" />
+        <span class="logo-text">SA</span>
+      </div>
+      <!-- Navegación principal con anclas a cada sección -->
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#inicio"      class="nav-link">Inicio</a>
+        <a href="#sobre-mi"    class="nav-link">Sobre mí</a>
+        <a href="#estadisticas" class="nav-link">Stats</a>
+        <a href="#proyectos"   class="nav-link">Proyectos</a>
+        <a href="#habilidades" class="nav-link">Habilidades</a>
+        <a href="#servicios"   class="nav-link">Servicios</a>
+        <a href="#trayectoria" class="nav-link">Trayectoria</a>
+        <a href="#testimonios" class="nav-link">Testimonios</a>
+        <a href="#contacto"    class="nav-link">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO: Presentación principal ===== -->
+    <section class="hero" id="inicio">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow">✦ Bienvenido a mi portafolio</p>
+          <h1 class="hero-title">Hola, soy<br /><span class="hero-name">Steven Anamá</span></h1>
+          <p class="hero-subtitle">Multimedia &amp; Producción Audiovisual</p>
+          <p class="hero-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ullamco laboris nisi.</p>
+          <div class="hero-btns">
+            <a href="#proyectos" class="btn-primary">Ver proyectos</a>
+            <a href="#contacto"  class="btn-ghost">Contáctame</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-ring">
+            <img src="https://picsum.photos/400/400?random=1" alt="Foto de perfil de Steven Anamá" class="profile-img" />
+          </div>
+          <!-- Etiquetas flotantes decorativas alrededor de la foto -->
+          <div class="badge badge-top">🎬 Producción</div>
+          <div class="badge badge-bottom">✨ Motion</div>
+        </div>
+      </div>
+      <!-- Separador ondulado entre el hero y la siguiente sección -->
+      <div class="wave-bottom">
+        <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#070B52"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE MÍ ===== -->
+    <section class="sobre-mi" id="sobre-mi">
+      <div class="section-inner">
+        <div class="section-label">Acerca de</div>
+        <h2 class="section-title light">Sobre mí</h2>
+        <div class="sobre-mi-grid">
+          <div class="sobre-mi-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium nemo enim.</p>
+          </div>
+          <div class="sobre-mi-tags">
+            <span class="tag">🎬 Producción de Video</span>
+            <span class="tag">🎧 Edición de Audio</span>
+            <span class="tag">📸 Fotografía</span>
+            <span class="tag">✂️ Post-producción</span>
+            <span class="tag">🎨 Motion Graphics</span>
+            <span class="tag">🎞️ Color Grading</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ESTADÍSTICAS: Contadores animados ===== -->
+    <section class="estadisticas" id="estadisticas">
+      <div class="section-inner stats-inner">
+        <!-- Cada stat-card muestra un número grande y una etiqueta -->
+        <div class="stat-card">
+          <span class="stat-num" data-target="28">0</span>
+          <span class="stat-label">Proyectos<br/>Realizados</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <span class="stat-num" data-target="3">0</span>
+          <span class="stat-label">Años de<br/>Experiencia</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <span class="stat-num" data-target="15">0</span>
+          <span class="stat-label">Clientes<br/>Satisfechos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <span class="stat-num" data-target="6">0</span>
+          <span class="stat-label">Herramientas<br/>Dominadas</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROYECTOS: Tres tarjetas en fila ===== -->
+    <section class="proyectos" id="proyectos">
+      <div class="section-inner">
+        <div class="section-label">Portafolio</div>
+        <h2 class="section-title dark">Mis Proyectos</h2>
+        <p class="section-sub dark">Selección de trabajos audiovisuales recientes</p>
+        <div class="proyectos-grid">
+
+          <article class="card-proyecto">
+            <div class="card-img-wrap">
+              <img src="https://picsum.photos/350/250?random=10" alt="Documental Urbano" class="card-img" />
+              <div class="card-overlay">
+                <span class="card-tag">Documental</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Documental Urbano</h3>
+              <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+              <a href="#" class="card-link">Ver proyecto →</a>
+            </div>
+          </article>
+
+          <article class="card-proyecto">
+            <div class="card-img-wrap">
+              <img src="https://picsum.photos/350/250?random=20" alt="Spot Publicitario" class="card-img" />
+              <div class="card-overlay">
+                <span class="card-tag">Publicidad</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Spot Publicitario</h3>
+              <p class="card-desc">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+              <a href="#" class="card-link">Ver proyecto →</a>
+            </div>
+          </article>
+
+          <article class="card-proyecto">
+            <div class="card-img-wrap">
+              <img src="https://picsum.photos/350/250?random=30" alt="Cortometraje" class="card-img" />
+              <div class="card-overlay">
+                <span class="card-tag">Ficción</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Cortometraje</h3>
+              <p class="card-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+              <a href="#" class="card-link">Ver proyecto →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN HABILIDADES: Círculos perfectos interactivos -->
+        <section id="habilidades" class="seccion-transparente">
+    <div class="contenedor-general">
+        <span class="subtitulo-seccion-claro">Skills</span>
+        <h2 class="titulo-seccion-claro">Habilidades</h2>
+        
+        <div class="grid-cuatro-columnas">
+            
+            <div class="tarjeta-habilidad-circular">
+                <div class="carrusel-imagenes">
+                    <img src="https://i.pinimg.com/736x/c1/fa/78/c1fa78ecf88b1c8d5422a535ae498fd9.jpg" alt="img">
+                    <img src="https://i.pinimg.com/736x/de/ae/c0/deaec084c9c16f16de93a0afab4a6d61.jpg" alt="img">
+                    <img src="https://i.pinimg.com/736x/4c/8c/1f/4c8c1f7e3ed668b6ac8784ba5e105c0c.jpg" alt="img">
+                </div>
+                <div class="overlay"></div>
+                <div class="contenido-original">
+                    <span class="habilidad-numero">01</span>
+                    <p>Edición de Video</p>
+                </div>
+            </div>
+
+            <div class="tarjeta-habilidad-circular">
+                <div class="carrusel-imagenes">
+                    <img src="https://i.pinimg.com/1200x/8a/47/91/8a4791a7d1473ccbdbea0e09acb5d9ab.jpg" alt="img">
+                    <img src="https://i.pinimg.com/1200x/b0/d1/21/b0d1214d799587ec8fea54da7fddf837.jpg" alt="img">
+                    <img src="https://i.pinimg.com/1200x/26/f1/1c/26f11c427c50de168f78401d4f498fe6.jpg" alt="img">
+                </div>
+                <div class="overlay"></div>
+                <div class="contenido-original">
+                    <span class="habilidad-numero">02</span>
+                    <p>Ilustración Digital</p>
+                </div>
+            </div>
+
+            <div class="tarjeta-habilidad-circular">
+                <div class="carrusel-imagenes">
+                    <img src="https://i.pinimg.com/1200x/a8/bf/d5/a8bfd58bc2e012e5ca684f12086ea9bb.jpg" alt="img">
+                    <img src="https://i.pinimg.com/1200x/61/fe/4d/61fe4d1f0fee2e546c17f668817132e7.jpg" alt="img">
+                    <img src="https://i.pinimg.com/736x/da/aa/5a/daaa5a9f1c202cb5a9684795906637dd.jpg" alt="img">
+                </div>
+                <div class="overlay"></div>
+                <div class="contenido-original">
+                    <span class="habilidad-numero">03</span>
+                    <p>Diseño UI/UX</p>
+                </div>
+            </div>
+
+            <div class="tarjeta-habilidad-circular">
+                <div class="carrusel-imagenes">
+                    <img src="https://i.pinimg.com/736x/cc/0c/21/cc0c210c34e8bd877e378590c69bf14a.jpg" alt="img">
+                    <img src="https://i.pinimg.com/originals/44/bd/f6/44bdf61272ecc30b749eb738a664d2b3.gif" alt="img">
+                    <img src="https://i.pinimg.com/1200x/2a/44/e8/2a44e874d9c5d05c31bbc502b5d81ac3.jpg" alt="img">
+                </div>
+                <div class="overlay"></div>
+                <div class="contenido-original">
+                    <span class="habilidad-numero">04</span>
+                    <p>Animación 2D</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ===== SERVICIOS: Lo que ofrezco ===== -->
+    <section class="servicios" id="servicios">
+      <div class="section-inner">
+        <div class="section-label">Oferta</div>
+        <h2 class="section-title dark">Servicios</h2>
+        <p class="section-sub dark">¿En qué puedo ayudarte?</p>
+        <div class="servicios-grid">
+
+          <div class="serv-card">
+            <div class="serv-icon">🎬</div>
+            <h3 class="serv-title">Producción de Video</h3>
+            <p class="serv-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          </div>
+
+          <div class="serv-card featured">
+            <div class="serv-badge">Popular</div>
+            <div class="serv-icon">✨</div>
+            <h3 class="serv-title">Motion Graphics</h3>
+            <p class="serv-desc">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+          </div>
+
+          <div class="serv-card">
+            <div class="serv-icon">🎧</div>
+            <h3 class="serv-title">Edición & Post</h3>
+            <p class="serv-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+          </div>
+
+          <div class="serv-card">
+            <div class="serv-icon">📷</div>
+            <h3 class="serv-title">Fotografía</h3>
+            <p class="serv-desc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRAYECTORIA: Línea de tiempo vertical ===== -->
+    <section class="trayectoria" id="trayectoria">
+      <div class="section-inner">
+        <div class="section-label light-label">Historia</div>
+        <h2 class="section-title light">Mi Trayectoria</h2>
+        <p class="section-sub light-sub">El camino recorrido hasta hoy</p>
+
+        <!-- Contenedor de la línea de tiempo; la línea vertical es el ::before del .timeline -->
+        <div class="timeline">
+
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-year">2021</span>
+              <h3 class="timeline-title">Inicio universitario</h3>
+              <p class="timeline-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-year">2022</span>
+              <h3 class="timeline-title">Primeros proyectos</h3>
+              <p class="timeline-desc">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-year">2023</span>
+              <h3 class="timeline-title">Especialización en Post</h3>
+              <p class="timeline-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="timeline-dot active"></div>
+            <div class="timeline-card active-card">
+              <span class="timeline-year">2024 – Hoy</span>
+              <h3 class="timeline-title">Proyectos profesionales</h3>
+              <p class="timeline-desc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIOS: Tarjetas de opiniones ===== -->
+    <section class="testimonios" id="testimonios">
+      <div class="section-inner">
+        <div class="section-label">Opiniones</div>
+        <h2 class="section-title dark">Testimonios</h2>
+        <p class="section-sub dark">Lo que dicen quienes han trabajado conmigo</p>
+        <div class="testimonios-grid">
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. Duis aute irure dolor in reprehenderit."</p>
+            <div class="testi-author">
+              <img src="https://picsum.photos/50/50?random=41" alt="Cliente 1" class="testi-avatar" />
+              <div>
+                <strong>María González</strong>
+                <span>Directora Creativa</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card featured-testi">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Excepteur sint occaecat cupidatat non proident. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <div class="testi-author">
+              <img src="https://picsum.photos/50/50?random=42" alt="Cliente 2" class="testi-avatar" />
+              <div>
+                <strong>Carlos Ruiz</strong>
+                <span>Productor Ejecutivo</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipiscing elit tempor incididunt ut labore."</p>
+            <div class="testi-author">
+              <img src="https://picsum.photos/50/50?random=43" alt="Cliente 3" class="testi-avatar" />
+              <div>
+                <strong>Ana Torres</strong>
+                <span>Community Manager</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO: Formulario + datos ===== -->
+    <section class="contacto" id="contacto">
+      <div class="section-inner">
+        <div class="contacto-grid">
+          <div class="contacto-texto">
+            <div class="section-label light-label">Hablemos</div>
+            <h2 class="contacto-titulo">¿Tienes un proyecto<br /><em>en mente?</em></h2>
+            <p class="contacto-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            <p class="contacto-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="contacto-info">
+              <p>📧 steven@ejemplo.com</p>
+              <p>📍 Ecuador</p>
+              <p>📱 +593 000 000 000</p>
+            </div>
+          </div>
+          <div class="contacto-form-wrap">
+            <form class="contacto-form" action="#" method="post" novalidate>
+              <div class="form-group">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Tu nombre completo" required />
+              </div>
+              <div class="form-group">
+                <label for="correo" class="form-label">Correo</label>
+                <input type="email" id="correo" name="correo" class="form-input" placeholder="tu@correo.com" required />
+              </div>
+              <div class="form-group">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" class="form-textarea" placeholder="Cuéntame sobre tu proyecto..." rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn-primary full-width">Enviar mensaje ✦</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">SA</span>
+        <p>Steven Anamá · Multimedia &amp; Producción Audiovisual</p>
+      </div>
+      <div class="footer-social">
+        <a href="#" class="social-link" aria-label="Instagram">📷 Instagram</a>
+        <a href="#" class="social-link" aria-label="Behance">🅱 Behance</a>
+        <a href="#" class="social-link" aria-label="YouTube">▶ YouTube</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Steven Anamá. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Script de animaciones: contadores y barras de progreso -->
+  <script src="main.js"></script>
+
+</body>
+</html>
