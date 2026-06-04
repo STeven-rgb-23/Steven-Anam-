@@ -145,6 +145,7 @@ a {
 
 /* Contenedor interior del header: logo a la izquierda, nav a la derecha */
 .header-inner {
+  margin: 0 auto;
   padding: 0 24px;
   display: flex;
   align-items: center;
@@ -155,15 +156,15 @@ a {
 /* Agrupa la imagen cuadrada y el texto del logo */
 .logo {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 10px;
 }
 
 /* Imagen cuadrada del logo (marcador de posición 50x50) */
 .logo-img {
   width: 42px;
-  height: 42px;
-  border-radius: 8px;
+  height: 52px;
+  border-radius: 15px;
   object-fit: cover;
   border: 2px solid #6ECEC7;
 }
