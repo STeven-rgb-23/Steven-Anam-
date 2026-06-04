@@ -150,6 +150,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 70px;
 }
 
 /* Agrupa la imagen cuadrada y el texto del logo */
