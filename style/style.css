@@ -148,8 +148,10 @@ a {
   max-width: auto;
   margin: auto;
   padding: 10px;
-  height: auto;
+  height: 68px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Agrupa la imagen cuadrada y el texto del logo */
