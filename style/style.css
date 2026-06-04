@@ -145,13 +145,12 @@ a {
 
 /* Contenedor interior del header: logo a la izquierda, nav a la derecha */
 .header-inner {
-  max-width: auto;
-  margin: auto;
-  padding: 10px;
-  height: 68px;
+  margin: 0 auto;
+  padding: 0 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 70px;
 }
 
 /* Agrupa la imagen cuadrada y el texto del logo */
@@ -159,12 +158,15 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
-  }
+}
 
 /* Imagen cuadrada del logo (marcador de posición 50x50) */
 .logo-img {
-  width: 100px;
-    object-fit: cover;
+  width: 42px;
+  height: px;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 2px solid #6ECEC7;
 }
 
 /* Texto identificativo junto al logo */
