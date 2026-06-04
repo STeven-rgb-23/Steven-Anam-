@@ -145,7 +145,7 @@ a {
 
 /* Contenedor interior del header: logo a la izquierda, nav a la derecha */
 .header-inner {
-  max-width: 1100px;
+  width: 100px;
   margin: 0 auto;
   padding: 0 24px;
   height: 68px;
