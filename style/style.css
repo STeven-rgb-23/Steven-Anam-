@@ -872,7 +872,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 19px;
+  gap: 20px;
 }
 
 /* Texto de copyright */
