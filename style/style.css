@@ -477,6 +477,7 @@ a {
    SECCIÓN HABILIDADES
 ============================================================ */
 
+
 .seccion-transparente{
     background: linear-gradient(to bottom, #070B52, #0d145f);
     padding: 120px 8%;
@@ -509,6 +510,7 @@ a {
     margin-bottom: 70px;
     font-family: 'Playfair Display', serif;
 }
+
 
 /* Grid principal */
 .grid-cuatro-columnas{
