@@ -76,7 +76,7 @@ a {
   font-family: 'Playfair Display', serif;
   font-size: 2.4rem;
   font-weight: 900;
-  color: #6ECEC7;
+  color: #20938b;
   margin-bottom: 8px;
   letter-spacing: -0.5px;
 }
@@ -863,7 +863,7 @@ a {
    Texto claro + íconos de redes sociales en fila
 ============================================================ */
 .footer {
-  background-color: #070B52;
+  background-color: #082f92;
   padding: 36px 24px;
 }
 
