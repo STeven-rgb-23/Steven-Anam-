@@ -891,7 +891,7 @@ a {
 }
 
 /* Estilo de cada enlace de red social */
-.social-link {
+.inatagram{
   color: #0548e2;
   font-size: 0.9rem;
   font-weight: 700;
@@ -901,6 +901,18 @@ a {
   border-bottom: 2px solid transparent;
   transition: color 0.3s ease, border-color 0.3s ease;
 }
+
+/* Estilo de cada enlace de red social */
+.facebook{
+  color: #0548e2;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-bottom: 3px;
+  /* Línea inferior animada para hover */
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-color 0.3s ease;
+  }
 
 /* Hover: resalta en color acento brillante */
 .social-link:hover {
