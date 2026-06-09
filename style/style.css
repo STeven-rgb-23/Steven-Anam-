@@ -477,47 +477,58 @@ a {
    SECCIÓN HABILIDADES
 ============================================================ */
 
-
-.seccion-transparente{
-    background: linear-gradient(to bottom, #070B52, #0d145f);
-    padding: 120px 8%;
-    overflow: hidden;
+.habilidades{
+    background:white;
 }
 
-/* Contenedor principal */
-.contenedor-general{
-    max-width: 1300px;
-    margin: auto;
+.skill{
+    max-width:800px;
+    margin:0 auto 30px;
 }
 
-/* Subtítulo */
-.subtitulo-seccion-claro{
-    display: block;
-    text-align: center;
-    color: #6ECEC7;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 0.9rem;
-    margin-bottom: 15px;
-    font-weight: 700;
+.skill-info{
+    display:flex;
+    justify-content:space-between;
+
+    margin-bottom:10px;
+
+    font-weight:600;
 }
 
-/* Título principal */
-.titulo-seccion-claro{
-    text-align: center;
-    font-size: 3rem;
-    color: white;
-    margin-bottom: 70px;
-    font-family: 'Playfair Display', serif;
+.skill-bar{
+    height:14px;
+    background:#d8d8d8;
+
+    border-radius:30px;
+
+    overflow:hidden;
 }
 
+.skill-progress{
+    height:100%;
+    border-radius:30px;
 
-/* Grid principal */
-.grid-cuatro-columnas{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 35px;
+    background:linear-gradient(
+        90deg,
+        #305F8A,
+        #6ECEC7
+    );
+}
+
+.foto{
+    width:85%;
+}
+
+.audiovisual{
+    width:90%;
+}
+
+.multimedia{
+    width:88%;
+}
+
+.web{
+    width:75%;
 }
 
 /* ============================================================
