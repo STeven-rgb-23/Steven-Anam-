@@ -606,6 +606,21 @@ a {
     width:75%;
 }
 
+.habilidades{
+    background:white;
+}
+
+.herramientas{
+    background:#EEF3F5;
+}
+
+.servicios{
+    background:white;
+}
+
+.contacto{
+    background:#070B52;
+}
 
 /* ============================================================
    SECCIÓN CONTACTO
