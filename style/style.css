@@ -479,7 +479,7 @@ a {
 
 .habilidades{
 
-    background:#C2C9C9;
+    background:#1a1a2e;
 
     padding:120px 10%;
 }
@@ -606,21 +606,7 @@ a {
     width:75%;
 }
 
-.habilidades{
-    background:white;
-}
 
-.herramientas{
-    background:#EEF3F5;
-}
-
-.servicios{
-    background:white;
-}
-
-.contacto{
-    background:#070B52;
-}
 
 /* ============================================================
    SECCIÓN CONTACTO
